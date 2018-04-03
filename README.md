@@ -1,2 +1,0 @@
-# chofia.github.io
-Portfolio
