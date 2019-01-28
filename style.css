@@ -1,55 +1,20 @@
+html { 
+  height: 100%;
+}
+
 body { 
-    /*font-family: 'Josefin Sans', sans-serif;**/
-    color: #F0FFF0;
+    background-color: #F0FFF0;
+    color: #2e3747;
+}
+
+.brand{
     font-family: 'Josefin Sans', sans-serif;
-    background: #2c3543;
-}
-
-.jumbotron {
-    background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(45deg,
-        rgba(44, 53, 67, .3),
-        rgba(44, 53, 67, .45)
-    ),
-    /* bottom, image */
-    url(images/comp.jpg);
-    height: 825px;
-    padding-top: 0;
-}
-
-.jumbotron .logo {
-    padding-top: 5em;
-}
-
-.jumbotron .logo h1{
-    font-size: 1200%;
+    font-size: 250%;
     text-transform: uppercase;
+    color: #FEC10D;
+    margin-right: 1.5rem;
 }
 
-.jumbotron .logo p{
-    font-size: 52px;
-}
-
-#home-nav {
-    margin: auto;
-    text-align: center;
-    font-size: 180%;
-}
-
-#home-nav ul {
-    list-style-type: none;
-}
-
-#home-nav li {
-    display: inline;
-}
-
-#home-nav li a {
-    font-weight: 800;
-    display: inline-block;
-    padding: 10px 20px; 
-}
 a{
     color: #FEC10D;
 }
@@ -58,51 +23,39 @@ a:hover{
     color: #fed96d;
 }
 
-.logo {
-    display: block;
+
+footer { 
+    background-color: #2e3747;
+    color: white;
+    padding: 5px;
     text-align: center;
-    margin: auto;
+    width: 100%;
+    height: 100px;  
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
-.logo h1{
-    color: #;
-    font-size: 64px;
-    text-transform: uppercase;
-    
-}
-.logo a:hover{
-    text-decoration: none;  
+/* Start Here for new  */
+
+.main{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #F0FFF0;
 }
 
-
-#me p{
-    margin: auto;
-    text-align: center;
-}
-
-#me img {
-    border-radius: 5px;
-    padding: 3px;
-    max-width: 90%;
-    background-color: white;
-    box-shadow: 10px 10px 5px #0e0e0e;
-    transform: rotate(-7deg);
-
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
 }
 
 #content {
-    font-size: 150%;
-}
-
-.title{
-    color: #;
-    font-weight: 800;
-    display: inline-block;
-    margin-bottom: 6px;
+    font-size: 125%;
 }
 
 p .h2-line {
-    border-top: 3px solid #F0FFF0;
+    border-top: 3px solid #2e3747;
     padding-left: 3em;
 }
 
@@ -114,9 +67,8 @@ a.resume {
     display: block;
     text-align: center;
     color: #0e0e0e;
-    padding: 5px 10px;
+    padding: 7px 12px;
     margin: 1em 0;
-    border: 2px #FEC10D double;
     border-radius: 5px;
     background: #FEC10D;
     width: 140px;
@@ -124,58 +76,4 @@ a.resume {
 
  a.resume:hover{
     background-color: #fed96d;
-}
- 
-footer{ 
-    background-color: #1a1f28;
-    clear: both;
-    margin: 1em auto 0 auto;
-    padding: 1.5em;
-    overflow: auto;
-    padding: 3em 24px 1em 24px;
-    font-size: 120%;
-}
-
-footer .copyright {
-    text-align: center;
-}
-
-footer .social-media p {
-    text-align: left;
-}
-
-#footer-nav ul {
-    list-style-type: none;
-}
-
-
-/**Project**/
-
-.project-header {
-    width: 100%;
-    padding: 2em 0;
-    margin-bottom: 2em;
-}
-
-#main-nav {
-    margin: auto;
-    text-align: center;
-    font-size: 160%;
-}
-
-#main-nav ul {
-    padding-top: 2em;
-    list-style-type: none;
-}
-
-#main-nav li {
-    display: inline;
-    margin-right: .5em;
-}
-
-#main-nav li a {
-    font-weight: 700;
-    display: inline-block;
-    padding: 10px 20px; 
-    font-family: 'Josefin Sans', sans-serif;
 }
