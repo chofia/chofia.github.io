@@ -2,92 +2,107 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewpoint" content="width=device-width, initial scale=1">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="shorcut icon" href="logo.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!--Bootsrap and fonts  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i" rel="stylesheet">   
+        
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="shorcut icon" href="chofia-blue.ico" />
 
         <title>Chofia's House </title>
     </head>
 
-    <body>
-        <div class="jumbotron">
-            <div class="main-header">
-                <div class="container">
-                    <div class="row">
-                        <nav id="home-nav">
-                            <ul>
-                                <li><a class="active" href="index.html">Home</a></li>
-                                <li><a href="projects.html">Projects</a>
-                            </ul>
-                        </nav>
-                        
-                        <div class="logo">
-                            <a href="index.html"><h1>Chofia</h1></a>
-                            <p>Junior Web Designer, Charlotte NC</p>
-                        </div><!--logo-->
-                    </div><!-- row end-->
-                </div><!--container main-header end-->
-            </div><!--main-header end-->
-        </div>
+	<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0FFF0;">
+        <span class="brand">Chofia</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="container" >
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projects.html">Projects</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <ul class="nav navbar-nav flex-row flex-nowrap">
+                    <a class="nav-link" href="https://twitter.com/chofia_sa" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/chofia/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="nav-link" href="https://codepen.io/chofia/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    <a class="nav-link" href="https://github.com/chofia" target="_blank"><i class="fab fa-github"></i></a>
+                </ul>
+            </span>
+        </div>
+    </nav>
+	<!--/.Navbar -->
+	
+	<!-- MAIN TEXT HERE -->
+	<div class="main">
+        <div class="container">
             <div class="row">
-                <div class="col-md-8" id="content">
+
+                <div class="col-md-3">
+                    <div class="logo-wrapper">
+                        <img src="chofia-yellow.ico" alt="me kissing my kitty JavaChip"/>
+                    </div>
+                </div> <!-- class block end -->
+
+                <div class="col-md-9" id="content">
                     <header>
-                        <h2 class="title">Junior Web Designer</h2>
+                        <h2 class="title">Web Developer</h2>
+                    
+                        <p class="text-muted"> I like to buld apps and take naps.</p>
                         <p><span class="h2-line">&nbsp;</span></p>
                     </header>
                     
-                    <p>I just want to build beautiful websites for beautiful people</p>
-                    <p>I build websites using HTML and CSS. For this one I've made with the help of bootstrap. I love playing around with JavaScript and I've finnaly dipped my hand in JQuery.</p>
-                    <p>My greatest accomplishment thusfar is getting a cat and naming her JavaChip.</p>
+                    <p>
+                    Hey, my name is Ana Sofia and I am a Web Developer based Charlotte NC. 
+                    Just starting a new journey in DevOps at Tech Talent South.
+                    </p>
 
+                    <p>
+                    I started with core skills like HTML, CSS and JavaScript and worked my way into things like Bootstrap and Mean Stack. 
+                    This year I started learning more about back-end developments with languages such as Java and shell scripting. 
+                    I am constantly looking for new challenges and new things to learn. 
+                    </p>
+                    
+                    <p>    
+                    I believes that patients is key to becoming a true developer. I practice patience with word puzzles and refinishing 
+                    furniture at home. The way I work to relieve stress an anxiety is to go out and lift weight or stay in and play video
+                    games and then I'm ready to go!
+                    </p>
+                         
                     <span><a class="resume" href="as_resume.pdf" target="_blank">Resume</a></span>
                 </div> <!--class col-md-8 id content end -->
 
-                <div class="col-md-4" id="me">
-                    <p><img src="images/me.jpg" alt="me kissing my kitty JavaChip"/></p>
-                </div> <!-- class block end -->
             </div><!-- row end --> 
         </div> <!--container me end -->
+	</div><!--/.main end -->
+		
+    <!-- Footer -->	
+    <footer>
+        <nav class="nav justify-content-center">
+            <a class="nav-link" href="https://twitter.com/chofia_sa" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="nav-link" href="https://www.linkedin.com/in/chofia/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="nav-link" href="https://codepen.io/chofia/" target="_blank"><i class="fab fa-codepen"></i></a>
+            <a class="nav-link" href="https://github.com/chofia" target="_blank"><i class="fab fa-github"></i></a>
+        </nav>
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="copyright"><p>Ana Saenz Copyright &copy; 2018</p></div>
-                    </div><!--col-md-4-->
-
-                    <div class="col-md-4">
-                        <div class="social-media">
-                            <p>Follow me on: <br>
-                                <a href="https://twitter.com/chofia_sa" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
-                                <a href="https://www.linkedin.com/in/chofia/" target="_blank"><img src="images/linkedin.png" alt="linkedin"/></a>
-                                <a href="https://codepen.io/chofia/" target="_blank"><img src="images/codepen.png" alt="codepen"/></a>
-                                <a href="https://github.com/chofia" target="_blank"><img src="images/github.png" alt="github account"></a>
-                            </p>
-                        </div><!-- social-media -->
-                    </div><!-- col-md-4 -->
-                    
-                    <div class="col-md-4">
-                        <nav id="footer-nav">
-                            <ul>
-                                <li><a class="active" href="index.html">Home</a></li>
-                                <li><a href="projects.html">Projects</a></li>
-                                <li><a href="tts.html">Tech Talent South</a></li>
-                            </ul>
-                        </nav><!-- footer-nav end -->
-                    </div><!-- col-md-4 end -->
-                </div><!-- row -->
-            </div><!-- container main-header -->
-        </footer>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="script.js"></script>
-    </body>
-
-</html> 
+        <p class="text-center text-muted">Ana Saenz Copyright &copy; 2019</p>
+    </footer>
+	<!-- /.Footer -->
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" type="text/javascript"></script>
+	</body>
+</html>
