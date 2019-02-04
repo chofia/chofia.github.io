@@ -1,0 +1,31 @@
+[30 Points]Create a Basic HTML Website and deploy it (your choice on which tool you use for deployment) 
+- Make some changes to your site (once it is live) then push your project up 
+- Rollback that Deployment
+- Make sure to keep a step-by-step document that is what you will be graded on 
+
+
+
+
+////////////Start here
+Using an existing site on Github Pages -> Chofia.github.io
+
+- To Create a page -> go to GitHub and  create a new repository named username.github.io,
+- make a folder and CD into your new folder
+- $ git clone URL
+- $ cd username.github.io
+
+Make some changes to your site (once it is live) then push your project up 
+- I added an img on index.html
+- $ git add . 
+- $ git commit -m “footer will stay at the bottom” 
+- $ git push —set-upstream origin master
+
+Rollback that Deployment
+- $ git checkout master
+- $ git log
+    - To find the commit number -“ commit ed3cfe55e03218745018e2413563d9ef9b20cda0”
+Getting into the detached HEAD state
+- $ git revert ed3cfe55e03218745018e2413563d9ef9b20cda0
+- $ git add . 
+- $ git commit -“revert ed3cfe55e03218745018e2413563d9ef9b20cda0”
+- $ git push origin master
