@@ -135,8 +135,9 @@ i{
 }
 
 i:hover{
-    transform:scale(1.3)
-    padding: 5px;transform: rotate(25deg)
+    transform:scale(1.3);
+    padding: 5px;
+    transform: rotate(25deg);
 }
 
         /* body sections */
@@ -147,7 +148,7 @@ section:nth-child(2n){
 }
 
 section p {
-    font-family: 'Roboto Slab'
+    font-family: 'Roboto Slab';
 }
 
 section .description,
