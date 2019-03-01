@@ -30,10 +30,6 @@ footer {
     padding: 5px;
     text-align: center;
     height: 100px;  
-    position: relative;
-    left:0;
-    bottom:0;
-    width:100%;
 }
 
 /* Start Here for new  */
@@ -41,6 +37,7 @@ footer {
 .main{
     margin-top: 2rem;
     padding-bottom: 2rem;
+
     background-color: #F0FFF0;
 }
 
@@ -61,6 +58,7 @@ p .h2-line {
 
 p {
     margin: 10px 0;
+    padding: .5rem;
 }
 
 a.resume {
